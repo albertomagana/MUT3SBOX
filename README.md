@@ -13,8 +13,20 @@ HHH, EvoScan, pocket logger.
 
 
 The free DIY involved:
-- 1G: Get the MMCDLogger and a palm emulator, build a DSM logger cable and get an RS232 adapter.
-- 2G: Get the Mitsulogger, build a K-Line circuit DIY cable with an FTDI adapter.
+- 1G: Get the MMCDLogger and a palm emulator, build a DSM logger cable (got the diagram from https://www.dsmtuners.com/threads/how-to-set-up-mmcd-make-a-logging-cable.203316/) and get an RS232 adapter.
+
+![Image of a 1g logging diagram](https://www.dsmtuners.com/attachments/palmminimalist4cj-jpg.291632/)
+- 2G: Get the Mitsulogger, build a K-Line circuit DIY cable with an FTDI adapter (The first time I saw and built one with: https://www.3si.org/threads/anyone-up-for-a-7-hybrid-logging-cable.436691).
+
+![Image of a 2g logging diagram](https://www.3si.org/attachments/obdii_avr-gif.84108/)
+
+
+Then I found this:
+https://github.com/muki01/OBD2_K-line_Reader/
+
+The K-line reader was familiar and I had used a similar approach with an arduino for the 1G, since the protocol is simple and I know the requests from evoscan/mitsulogger/mmcdlogger.
+
+But the whole standalone webserver UI from the ESP32 was a great and cool idea so I followed and built that, works great and has a more universal approach to logging.
 
 
 
@@ -27,8 +39,8 @@ Mitsubishi MUT / Hybrid years
 
 
 ## Required hardware
-- ESP32
-- PCB With voltage regulator and K-Line circuit (3 options, see: https://github.com/muki01/OBD2_K-line_Reader).
+- ESP32 (Here I used a ESP32 Wroom 32 DevKit / Doit ESP32 Devkit v1)
+- PCB With voltage regulator and K-Line circuit (3 options, see: https://github.com/muki01/OBD2_K-line_Reader), I used the comparator approach.
 
 
 
