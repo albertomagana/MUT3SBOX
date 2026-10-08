@@ -2,7 +2,7 @@
 # MUT 3S BOX
 
 
-#### (Choose your language below / Escolha o seu idioma abaixo / Elija su idioma abajo)
+#### (Choose your language below / Elija su idioma abajo)
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md)
 [![Español](https://img.shields.io/badge/Language-Español-red)](README.es-MX.md)
 
