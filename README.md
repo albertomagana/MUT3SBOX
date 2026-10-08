@@ -1,4 +1,10 @@
+
 # MUT 3S BOX
+
+
+#### (Choose your language below / Escolha o seu idioma abaixo / Elija su idioma abajo)
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
+[![Español](https://img.shields.io/badge/Language-Español-red)](README.es-MX.md)
 
 
 # Inspiration
@@ -26,13 +32,14 @@ https://github.com/muki01/OBD2_K-line_Reader/
 
 The K-line reader was familiar and I had used a similar approach with an arduino for the 1G, since the protocol is simple and I know the requests from evoscan/mitsulogger/mmcdlogger.
 
-But the whole standalone webserver UI from the ESP32 was a great and cool idea so I followed and built that, works great and has a more universal approach to logging.
+The whole standalone webserver UI from the ESP32 was a great and cool idea so I followed and built that, works great and has a more universal approach to logging.
 
+But 91-95 are not OBD2 compliant and don't support all the features so I began adapting this to the old MUT compatible vehicles.
 
 
 ## Supported vehicles
 Mitsubishi MUT / Hybrid years
-91-93 simple request-response message / 94-95 k-line 5 baud init.
+91-93 simple request-response message / 94-95 with 5 baud init.
 
 96+ are OBD2 compliant and can use any commercial dongle/cable/reader.
 
@@ -54,3 +61,10 @@ Safe general-purpose pins:
 - ArduinoJson
 
 
+## ☕ Buy me a coffee
+
+If the information, project or details helped you
+
+<p>
+  <a href="https://buymeacoffee.com/resesona"><img alt="Buy Me a Coffee" height="32" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=black"></a>
+</p>
