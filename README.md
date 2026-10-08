@@ -18,7 +18,7 @@ The free DIY involved:
 ![Image of a 1g logging diagram](https://www.dsmtuners.com/attachments/palmminimalist4cj-jpg.291632/)
 - 2G: Get the Mitsulogger, build a K-Line circuit DIY cable with an FTDI adapter (The first time I saw and built one with: https://www.3si.org/threads/anyone-up-for-a-7-hybrid-logging-cable.436691).
 
-![Image of a 2g logging diagram](https://www.3si.org/attachments/obdii_avr-gif.84108/)
+![Image of a 2g logging diagram](images/obdii_avr.gif)
 
 
 Then I found this:
