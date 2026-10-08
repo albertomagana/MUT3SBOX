@@ -43,6 +43,11 @@ Mitsubishi MUT / Hybrid years
 - PCB With voltage regulator and K-Line circuit (3 options, see: https://github.com/muki01/OBD2_K-line_Reader), I used the comparator approach.
 
 
+⚠️ Critical Warning for ESP32-WROOM-32D / 32U
+If your module is the ESP32-WROOM-32D or ESP32-WROOM-32U (the most common versions), GPIO 16 and 17 are completely unusable.
+
+Safe general-purpose pins:
+• GPIO 18, 19, 21, 22, 23, 25, 26, 27, 32, 33
 
 ## Required libraries
 - ESPAsyncWebServer: https://github.com/ESP32Async/ESPAsyncWebServer (at least version 3.6.2)
