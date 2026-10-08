@@ -32,16 +32,15 @@ But the whole standalone webserver UI from the ESP32 was a great and cool idea s
 
 ## Supported vehicles
 Mitsubishi MUT / Hybrid years
-91-93 simple request-response message.
-94-95 k-line 5 baud init.
+91-93 simple request-response message / 94-95 k-line 5 baud init.
 
 96+ are OBD2 compliant and can use any commercial dongle/cable/reader.
 
 
 ## Required hardware
+- PCB With K-Line circuit (3 options, see: https://github.com/muki01/OBD2_K-line_Reader), I used the comparator approach.
+![Image of a k-line circut with comparator ](diagrams/PCB_KiCAD.png)
 - ESP32 (Here I used a ESP32 Wroom 32 DevKit / Doit ESP32 Devkit v1)
-- PCB With voltage regulator and K-Line circuit (3 options, see: https://github.com/muki01/OBD2_K-line_Reader), I used the comparator approach.
-
 
 ⚠️ Critical Warning for ESP32-WROOM-32D / 32U
 If your module is the ESP32-WROOM-32D or ESP32-WROOM-32U (the most common versions), GPIO 16 and 17 are completely unusable.
